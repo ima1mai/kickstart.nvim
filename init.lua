@@ -798,6 +798,12 @@ require('lazy').setup({
       -- Automatically add pairs of parenthesis
       require('mini.pairs').setup()
 
+      -- easymotion-like jump
+      require('mini.jump2d').setup()
+
+      -- NeoVim start screen
+      require('mini.starter').setup()
+
       -- Simple and easy statusline.
       --  You could remove this setup call if you don't like it,
       --  and try some other statusline plugin
